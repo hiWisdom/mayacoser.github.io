@@ -1,0 +1,95 @@
+
+
+/*stylesheet for containerfluid layout*/
+
+.headerlayout {background:black;height:100px;}
+.mainlayout {background:#F7F7F7;margin-top:100px;height:auto;z-index:-1;}
+.footerlayout {background:black;height:auto;}
+
+/*stylesheet for containerfluid layout end*/
+
+
+
+
+/*stylesheet for header container*/
+
+header {background:black;height:80px;margin-top:10px;}
+main {background:#F7F7F7;height:auto;margin-top:25px;z-index:-1;}
+footer {background:black;height:auto;margin-top:10px;}
+
+/*stylesheet for header container end*/
+
+
+
+
+
+/*header design begin*/
+
+.Hquicklinks{float:right;display:flex;position:relative;margin-top:-65px;margin-right:30px;}
+.Hquicklinkscontent{text-decoration:none;font-family:;font-size:150%;color:white;font-weight:bolder;margin:20px;word-spacing:20%;}
+
+/*header design end*/
+
+
+
+
+/*main design begin*/
+
+
+.mayacoserproductsAds {/*display:grid; grid-template-columns:auto; grid-template-columns:auto; grid-gap:2px;*/display:flex;flex-wrap:wrap;background:#fffffd; padding:50px 50px;}
+
+.mayacoserproductsImageAds{/*grid-column:1; grid-row:1;*/width:200px;height:180px;background:black; margin-left:auto;margin-right:auto;}
+.mayacoserproductscaptionAds {margin-left:auto;margin-right:auto;width:70%;}
+.productsADSbutton {margin-left:25px;margin-right:;width:200px;border:none;background-color:blue;} .productsADSbutton>a{text-decoration:none;font-family:cooper;color:white;}
+.leadproductdesign{font-family:Bree Serif;font-size:15px;color:red;font-weight:;letter-spacing:;}
+
+
+
+.mayacoserproductsAds1 {/*grid-column:1; grid-row:1;*/width:250px;height:auto;background:green;margin:10px;}
+.mayacoserproductsAds2 {/*grid-column:2; grid-row:1;*/width:250px;height:auto;background:green;margin:10px;}
+.mayacoserproductsAds3 {/*grid-column:3; grid-row:1;*/width:250px;height:auto;background:green;margin:10px;}
+.mayacoserproductsAds4 {/*grid-column:2; grid-row:1;*/width:250px;height:auto;background:green;margin:10px;}
+.mayacoserproductsAds5 {/*grid-column:3; grid-row:1;*/width:250px;height:auto;background:green;margin:10px;}
+.mayacoserproductsAds6 {/*grid-column:2; grid-row:1;*/width:250px;height:auto;background:green;margin:10px;}
+
+
+/*main design end*/
+
+
+/*footer design begin*/
+.quicklinkscontainer{display:flex;justify-content:space-between;}
+.quicklinksfooter{margin:20px;}
+.quicklinksfooter>li{}
+.quicklinksfooter>li>a{text-decoration:none;}
+
+/*footer design end*/
+
+
+/*Media Queries Begin*/
+
+
+@media(max-width:1000px) {
+	
+.Hquicklinks{margin-top:1px;background-color:black;width:100%;margin-right:-10px;}
+	
+.Hquicklinkscontent{margin:5px;}
+
+.mayacoserproductsAds {display:grid; grid-template-columns:auto; grid-template-columns:auto; grid-gap:10px;}
+
+.mayacoserproductsImageAds{width:80%;height:180px;background:black; margin-left:auto;margin-right:auto;}
+.mayacoserproductscaptionAds {margin-left:auto;margin-right:auto;width:70%;}
+.productsADSbutton {margin-left:20px;margin-right:;width:80%;border:;}
+
+
+.mayacoserproductsAds1 {grid-column:1; grid-row:1;width:100%;height:auto;background:green;}
+.mayacoserproductsAds2 {grid-column:2; grid-row:1;width:100%;height:auto;background:green;}
+.mayacoserproductsAds3 {grid-column:1; grid-row:2;width:100%;height:auto;background:green;}
+.mayacoserproductsAds4 {grid-column:2; grid-row:2;width:100%;height:auto;background:green;}
+.mayacoserproductsAds5 {grid-column:1; grid-row:3;width:100%;height:auto;background:green;}
+.mayacoserproductsAds6 {grid-column:2; grid-row:3;width:100%;height:auto;background:green;}
+
+	
+.quicklinkscontainer{display:flex;justify-content:space-between;flex-wrap:wrap;}
+	
+	
+}
