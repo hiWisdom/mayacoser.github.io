@@ -26,7 +26,14 @@ footer {background:black;height:auto;margin-top:10px;}
 /*header design begin*/
 
 .Hquicklinks{float:right;display:flex;position:relative;margin-top:-65px;margin-right:30px;}
-.Hquicklinkscontent{text-decoration:none;font-family:;font-size:150%;color:white;font-weight:bolder;margin:20px;word-spacing:20%;}
+#headerlinks{left:40%;top:35%;position:absolute;display;flex;}
+.buttonstyle{width:180px;height:25px;border-radius:2%;background-color:#ee58a0; border:none;box-shadow:2px 5px 10px #ee58a0;}
+#headerlinks ul { border:2px solid black;float:right;display:flex;position:relative;top:-60px;right:10px;vertical-align:center;}
+.headerlinksword a{color:white;font-weight:bold;font-size:130%;}
+ul {display:flex;}
+#headerlinks > .connect { text-decoration:none;text-align:center;font-weight:bolder;margin:10px;padding:10px;justify-content:space-between;}
+
+
 
 /*header design end*/
 
@@ -57,11 +64,15 @@ footer {background:black;height:auto;margin-top:10px;}
 
 
 /*footer design begin*/
-.quicklinkscontainer{display:flex;justify-content:space-between;}
-.quicklinksfooter{margin:20px;}
+.quicklinkscontainer{display:flex;justify-content:space-between;flex-wrap:wrap;}
+.quicklinksfooter{margin:40px;}
 .quicklinksfooter>li{}
-.quicklinksfooter>li>a{text-decoration:none;}
-
+.quicklinksfooter>li>a{text-decoration:none;font-family:Comic Sans MS;font-size:12px;line-height:3em;font-weight:bolder;color:white;}
+.quicklinksfooter>li>a:hover{color:#ee58a0;}
+.columA {width:40%;border:2px solid black;}
+#socialicons {width:100%;margin:auto;justify-content:space-between;display:flex;} 
+#trademark {text-align:center;}
+.decicon {font-size:30px;margin:10px;}
 /*footer design end*/
 
 
@@ -69,6 +80,12 @@ footer {background:black;height:auto;margin-top:10px;}
 
 
 @media(max-width:1000px) {
+	
+	#headerlinks {display:flex;left:55%;top:15%;flex-wrap:wrap;}
+	.wordstyling{display:none;font-style:bold;}
+	.buttonstyle{width:50px;height:25px;border-radius:2%;background-color:#ee58a0; border:none;box-shadow:2px 5px 10px #ee58a0; margin:5px;}
+
+.columA {width:100%;border:2px solid black;}
 	
 .Hquicklinks{margin-top:1px;background-color:black;width:100%;margin-right:-10px;}
 	
@@ -90,6 +107,6 @@ footer {background:black;height:auto;margin-top:10px;}
 
 	
 .quicklinkscontainer{display:flex;justify-content:space-between;flex-wrap:wrap;}
-	
-	
+	.quicklinksfooter{margin:20px;}
+	.h3-5{display:none;}
 }
