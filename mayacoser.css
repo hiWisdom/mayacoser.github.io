@@ -33,8 +33,13 @@ button > p > a{text-decoration:none;} button > p > a:hover{text-decoration:under
 .headerlinksword a{color:white;font-weight:bold;font-size:130%;}
 .headerfasfasdec{display:none;}
 .welcome_advert{position:relative;left:-190;right:0;}
-#welcome_advert1{background-color:orange;width:100%;height:200px;}
-#welcome_advert2{background-color:green;width:100%;height:200px;}
+#welcome_advert1{background-color:white;width:100%;height:200px;}
+#welcome_advert2{background-color:white;width:100%;height:200px;}
+h2 > a {text-decoration:none;}
+.ads1{background:#ee58a0;color:white;}
+.ads2{background:#eee8a0;color:black;}
+.headeradvertword1 {text-align:center;margin-top:30px;line-height:2em;font-weight:bolder;font-family:broadway;font-size:24px;letter-spacing:2px;background-color:white;}
+.headeradvertword2 {text-align:center;margin-top:30px;line-height:2em;font-weight:bolder;font-family:broadway;font-size:24px;letter-spacing:2px;background-color:white;}
 /*header design end*/
 
 
@@ -73,7 +78,7 @@ button > p > a{text-decoration:none;} button > p > a:hover{text-decoration:under
 #socialicons {width:100%;margin:auto;justify-content:space-between;display:flex;} 
 #trademark {text-align:center;}
 .decicon {font-size:30px;margin:10px;}
-
+.decicon:hover {border:2px solid white;}
 /*footer design end*/
 
 
@@ -112,4 +117,5 @@ button > p > a{text-decoration:none;} button > p > a:hover{text-decoration:under
 .quicklinkscontainer{display:flex;justify-content:space-between;flex-wrap:wrap;}
 	.quicklinksfooter{margin:20px;}
 	.h3-5{display:none;}
+	
 }
