@@ -56,6 +56,8 @@ h2 > a {text-decoration:none;}
 .leadproductdesign{font-family:Bree Serif;font-size:15px;color:red;font-weight:;letter-spacing:;}
 
 
+#main_ads_images_links {margin:10px; background:white;}
+	#fashion1imagead{width:100%;height:800px;}
 
 .mayacoserproductsAds1 {/*grid-column:1; grid-row:1;*/width:200px;height:auto;background:white;margin:10px;}
 .mayacoserproductsAds2 {/*grid-column:2; grid-row:1;*/width:250px;height:auto;background:green;margin:10px;}
@@ -117,5 +119,5 @@ h2 > a {text-decoration:none;}
 .quicklinkscontainer{display:flex;justify-content:space-between;flex-wrap:wrap;}
 	.quicklinksfooter{margin:20px;}
 	.h3-5{display:none;}
-	
+	#fashion1imagead{width:100%;height:400px;}
 }
